@@ -57,8 +57,6 @@ def main():
     window = webapp.MainWindow()
     #start the event loop
     App.exec()
-    
-    #making room list
 
     #making cohorts
     make_cohort(window.listText)
